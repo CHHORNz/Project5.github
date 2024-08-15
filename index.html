@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leang MengChhean</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <header>
+        <div class="contaner">
+            <div class="navbar">
+                <div class="menu">
+                    <a href="#" class="nav-brand"><img src="assets/img/01.png" alt=""></a>
+                    <ul class="nav-navbar">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Cantan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+         <!-- BOX & Swiper -->
+<Main>
+    <section class="hero-banner">
+        <div class="box">
+            <div class="nav-box">
+                <a href="" class="col"><div class="text-logo">
+                    <i class="fa-solid fa-house"></i>
+                        <h5>Home</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-box">
+                <a href="" class="col"><div class="text-logo">
+                    <i class="fa-solid fa-user"></i>
+                    <h5>User</h5>
+                </div>
+            </a>
+            </div>
+            <div class="nav-box">
+                <a href="" class="col"><div class="text-logo">
+                    <i class="fa-solid fa-link"></i>
+                    <h5>Cantan</h5>
+                </div>
+            </a>
+            </div>
+        </div>
+           <!-- Swiper -->
+        <div class="swiper mySwiper">
+        <div class="swiper-wrapper flex">
+        <div class="swiper-slide"><img src="assets/img/0_1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/0_2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/0_3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/0_4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/img/0_5.jpg" alt=""></div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <div class="book">
+            <div class="nav-book">
+                <div class="title">
+                    <h1>Hello</h1>
+                </div>
+                
+            </div>
+            <!-- Box-->
+            <div class="nav-box2">
+                <div class="card">
+                    <div class="box1">
+                        <div class="ban-tex">
+                            <h3>Hello</h3>
+                            <h6>Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, unde incidunt et mollitia consequuntur ex quibusdam, soluta quasi nostrum eligendi nihil dolorem nam aspernatur labore voluptatem aperiam repellat iure voluptas  aliquam facilis dolore fuga mollitia blanditiis, consequuntur vitae doloremque numquam at, pariatur quaerat velit neque, reiciendis sequi cum exercitationem saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nobis, eum tempore earum accusamus maiores laboriosam impedit dolore blanditiis aspernatur deleniti provident officia debitis facere. Porro accusamus dolor nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab fugit possimus molestiae animi perspiciatis, numquam hic illum praesentium iusto officia tempora placeat quia fuga excepturi laborum culpa autem earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae nihil, voluptatibus eaque fuga harum repellat totam provident.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box2">
+                        <div class="ban-tex">
+                            <h3>Good Bye</h3>
+                            <h6>Bye! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt aliquam facilis dolore fuga mollitia blanditiis, consequuntur vitae doloremque numquam at, pariatur quaerat velit neque, reiciendis sequi cum exercitationem saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nobis, eum tempore earum accusamus maiores laboriosam impedit dolore blanditiis aspernatur deleniti provident officia debitis facere. Porro accusamus dolor nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab fugit possimus molestiae animi perspiciatis, numquam hic illum praesentium iusto officia tempora placeat quia fuga excepturi laborum culpa autem earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae nihil, voluptatibus eaque fuga harum repellat totam provident repudiandae, impedit culpa quia aliquam sit? Officiis, omnis ducimus. Magni, placeat omnis!</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </section>
+</Main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
